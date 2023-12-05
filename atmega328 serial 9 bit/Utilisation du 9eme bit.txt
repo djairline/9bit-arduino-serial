@@ -1,0 +1,8 @@
+de base on attend qu'une adresse soit appelee : on garde MPCM à 1 
+si on detecte que c'est notre adresse qui à été appelée, on met MPCM à 0
+on lit tout les data jusqua la prochaine adressse (i.e tant que le bit 9 est a 0)
+On replace MPCM à 1
+
+Ne pas utiliser cbi et sbi !
+
+alse
